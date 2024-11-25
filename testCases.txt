@@ -1,0 +1,35 @@
+1. Does display 'Super Shoes' currency symbol as '$' in the 'Components' page
+   Given the Framer site is loaded
+   When I click on 'Components' button
+   And I see the 'Text styles, variants and overlays' in Components page
+   Then I see the 'Super Shoes' currency symbol is displayed as '$' in the 'Components' page
+
+2. Does display the 'Components' page after clicking the 'Components' button
+   Given the Framer site is loaded
+   When I see the 'Components' button 
+   And I click on the 'Components' button
+   Then I see the Components page is displayed
+
+3. Does display Sign Up page after clicking on 'Sign Up' button
+   Given the Framer site is loaded
+   When I click on 'Sign Up' button
+   Then I see the Sign Up page is loaded
+
+4. Does display 'Email' 'Password' and 'Sign Up' button on 'Sign Up' page
+   Given the Framer site is loaded
+   When I click on 'Sign Up' button
+   And I see the Sign Up page
+   Then 'Email', 'Password' and 'Sign Up' button on 'Sign Up' page is displayed
+
+5. Does display 'Close Your Rings' message in the 'Components' page
+   Given the Framer site is loaded
+   When I click on 'Components' button
+   And I see the Components page
+   And I see the 'Many types of components to customize' in Components page
+   Then I see the 'Close Your Rings' message is displayed in the 'Components' page
+
+6. Does display 'Download' button on Components page
+   Given the Framer site is loaded
+   When I click on 'Components' button
+   And I see 'Multiple pages with unique content'
+   Then I see the 'Download' button
